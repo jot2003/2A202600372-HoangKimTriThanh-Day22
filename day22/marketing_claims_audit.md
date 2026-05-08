@@ -41,6 +41,32 @@
 
 ---
 
+## Owner + deadline theo nhóm claim
+
+| Nhóm việc | Owner | Deadline | Deliverable |
+|---|---|---|---|
+| Gỡ claim mức C trên landing + deck | Founder + Marketing Lead | 10/05/2026 | Landing v2 + Deck v2 |
+| Cập nhật privacy/legal copy | Founder + Ops | 11/05/2026 | Privacy snippet mới + changelog |
+| Thiết lập quy trình founder sign-off | Founder | 16/05/2026 | Marketing Approval Log + publish gate |
+
+---
+
+## Evidence backlog để nâng claim từ C/B lên A
+
+1. **A/B test onboarding + correction outcome**  
+   - Mục tiêu: chứng minh claim "cải thiện form trong 2 tuần".  
+   - Metric: Corrected-Cue Rate, W1/W4 retention.
+
+2. **Benchmark theo device tiers**  
+   - Mục tiêu: claim setup time theo nhóm máy (high/mid/low).  
+   - Output: bảng median setup time + failure rate.
+
+3. **Cost impact mini-study**  
+   - Mục tiêu: kiểm chứng range giảm chi phí PT theo cohort.  
+   - Output: before/after monthly spending survey (n>=30).
+
+---
+
 ## Ghi chú founder
 
 Nếu honest version làm conversion giảm mạnh, đó là tín hiệu PMF/định vị còn yếu, không phải lý do để quay lại claim thổi phồng (rủi ro Điều 198 BLHS).

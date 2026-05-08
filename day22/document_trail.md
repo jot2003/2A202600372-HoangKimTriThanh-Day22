@@ -52,3 +52,22 @@
 - Day 2: migrate 10 claim đang chạy vào log + gán mức A/B/C.  
 - Day 3: khóa publish rights: campaign mới không có founder sign thì không live.
 
+---
+
+## Kế hoạch 30 ngày để đóng 4 ô còn thiếu
+
+| Loại hồ sơ thiếu | Tuần 1 | Tuần 2 | Tuần 3-4 | Chi phí ước tính |
+|---|---|---|---|---:|
+| Vendor terms review | Liệt kê toàn bộ vendor + điều khoản dữ liệu | Chốt review checklist hằng quý | Lưu biên bản review phiên đầu | $0-$100 |
+| Abuse monitoring log | Định nghĩa abuse signals + threshold | Bật dashboard + escalation 24h | Chạy dry-run 2 incident giả lập | $0-$50 |
+| DPIA/CTIA | Vẽ luồng dữ liệu chi tiết | Soạn draft hồ sơ | Nộp và lưu proof nộp | $0-$300 (tư vấn) |
+| Marketing approval gate | Tạo template + owner matrix | Khóa publish nếu chưa sign | Audit random 5 claim/tuần | $0 |
+
+---
+
+## KPI theo dõi document trail
+
+- Tỷ lệ campaign có founder sign trước publish: **100%**  
+- Tỷ lệ incident có đủ evidence trail trong 24h: **>= 95%**  
+- Tỷ lệ vendor có biên bản review trong quý: **100%**
+

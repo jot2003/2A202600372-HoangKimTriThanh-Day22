@@ -38,12 +38,34 @@
 
 ---
 
+## Map nghĩa vụ pháp lý theo phạm vi hiện tại
+
+| Chủ đề | Áp dụng hiện tại | Tôi cần làm gì trong 30 ngày |
+|---|---|---|
+| BLHS Điều 198 (marketing claim) | YES | Duy trì claim approval log, chỉ publish claim có evidence |
+| PDPL (dữ liệu cá nhân VN) | YES | Cập nhật privacy policy + data deletion flow + audit log |
+| PDPL Điều 30 (cross-border transfer) | YES | Chuẩn bị và nộp CTIA theo luồng dữ liệu hiện tại |
+| Luật AI VN Điều 9 (risk tier) | YES | Ban hành tài liệu phân loại tier + checklist nghĩa vụ theo tier |
+| EU AI Act | Conditional | Chỉ kích hoạt compliance track khi có user EU hoặc go-to-market EU |
+
+---
+
 ## 4 deadlines đã note vào Notion/Calendar
 
 - [x] 01/01/2026 — PDPL hiệu lực (đã qua)
 - [x] 01/03/2026 — Luật AI VN hiệu lực (đã qua)
 - [x] 02/08/2026 — EU AI Act high-risk milestone (đã note nhắc trước 30 ngày)
 - [x] 01/03/2027 — Hết ân hạn chính sách liên quan (đã note nhắc trước 60 ngày)
+
+---
+
+## Notion/Calendar paths đã ghi nhận
+
+- Notion page: `Compliance / Day22 / Territorial Scope`
+- Calendar labels:
+  - `LEGAL-CRITICAL`: CTIA/DPIA, luật hiệu lực
+  - `LEGAL-REVIEW`: quarterly legal review
+  - Reminder policy: T-60, T-30, T-7
 
 ---
 

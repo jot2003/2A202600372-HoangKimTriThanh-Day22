@@ -122,6 +122,40 @@
 
 ---
 
+## Severity matrix (để ưu tiên thực thi)
+
+| Vi phạm | Severity | Lý do xếp hạng |
+|---|---|---|
+| Vi phạm 4 (CTIA/cross-border) | Critical | Chạm PDPL Điều 30 + ảnh hưởng toàn hệ thống dữ liệu |
+| Vi phạm 1/2 (claim thổi phồng) | High | Rủi ro Điều 198 + trực diện customer-facing |
+| Vi phạm 7 (abuse monitoring) | High | Có thể trượt sang pattern Điều 324 nếu bỏ qua cảnh báo |
+| Vi phạm 5 (deletion flow) | High | PDPL + rủi ro trust/reputation song song |
+| Vi phạm 6/8 | Medium | Governance enabler, giảm rủi ro tái phát |
+
+---
+
+## Plan thực thi 14 ngày (owner-based)
+
+| Ngày | Việc | Owner | Output |
+|---|---|---|---|
+| D1-D2 | Freeze toàn bộ claim mức C, cập nhật hero/FAQ/deck | Founder + Marketing | Landing v2, deck v2 |
+| D3-D4 | Thiết lập Marketing Approval Log + publish gate | Founder + Ops | Workflow approve/reject |
+| D5-D7 | Hoàn tất draft CTIA + data flow annex | Founder + Legal advisor | CTIA draft v1 |
+| D8-D10 | Ship delete-data flow + audit log | Product + Eng | In-app delete + log report |
+| D11-D12 | Thiết lập abuse monitoring rules | Ops + Eng | Rulebook + escalation SLA |
+| D13-D14 | Re-audit theo Day22 prompt, so sánh delta | Founder | Compliance re-audit note |
+
+---
+
+## Bằng chứng cần lưu để tự bảo vệ founder
+
+1. Changelog claim trước/sau (timestamp + approver).  
+2. Proof nộp CTIA/DPIA (mã hồ sơ/biên nhận).  
+3. Incident logs có quyết định block/allow và lý do.  
+4. Biên bản quarterly vendor terms review.
+
+---
+
 ## Kết luận founder
 
 Audit này cho thấy rủi ro lớn nhất không nằm ở model accuracy, mà nằm ở **claim marketing + data transfer + evidencing**. Nếu 3 lớp này không khóa trong 30 ngày tới, startup có thể tự đẩy mình vào pattern pháp lý giống Kera/Pips/CIC.
